@@ -19,7 +19,7 @@ const brandingImages = computed(() => {
 });
 
 useHead({
-	title: 'Home',
+	title: $t('home'),
 	meta: [
 		{ name: 'description', content: 'A portfolio website for The Aridity Team.' }
 	]
@@ -37,15 +37,13 @@ useHead({
 				The <span class="text-cyan-400">Aridity</span> Team
 			</h1>
 			<p class="max-w-prose md:text-lg text-gray-500 dark:text-gray-400 p-2">
-				The Aridity Team is a group of people (specifically from South-East Asia)
-				that likes to develop software just for fun. We support free and open-source
-				software!
+				{{ $t('team_desc') }}
 			</p>
 			<p class="max-w-prose md:text-lg text-gray-500 dark:text-gray-400 p-2">
-				See our projects here in our <a class="text-cyan-500 hover:underline hover:cursor-pointer" href="https://github.com/aridityteam">GitHub</a>!
+				{{ $t('team_seeprojects') }} <a class="text-cyan-500 hover:underline hover:cursor-pointer" href="https://github.com/aridityteam">GitHub</a>!
 			</p>
 			<p class="max-w-prose md:text-lg text-gray-500 dark:text-gray-400 p-2">
-				We also handle a few affiliates and subsidiaries. See <a class="text-cyan-500 hover:underline hover:cursor-pointer" href="/network">Network</a>.
+				{{ $t('team_seenetwork') }} <a class="text-cyan-500 hover:underline hover:cursor-pointer" href="/network">{{ $t('network') }}</a>.
 			</p>
 		</div>
 	</div>

@@ -32,6 +32,15 @@ export default defineNuxtConfig({
 	},
 	css: ["~/assets/css/styles.css"],
 	modules: [
+		"@nuxt/devtools",
 		"@nuxt/eslint",
-	]
-})
+		"@nuxtjs/i18n"
+	],
+	i18n: {
+		locales: [
+			{ code: 'en', language: 'en-US', file: 'en.json' }
+		],
+		defaultLocale: 'en',
+		strategy: 'prefix_except_default',
+	}
+});

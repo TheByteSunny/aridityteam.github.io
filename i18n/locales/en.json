@@ -1,0 +1,15 @@
+{
+	"home": "Home",
+	"network": "Network",
+	"network_description": "The Aridity Team manages a network of projects, teams, and communities. Subsidiaries are initiatives where the Aridity Team maintains majority ownership and direction, while affiliates remain independently operated projects supported through partnership, intellectual property protection, and shared community standards.",
+	"networks": {
+		"hl2sbpp": "Half-Life 2: Sandbox++",
+		"hl2sbpp_desc": "Half-Life 2: Sandbox++ is a remake of Half-Life 2: Sandbox, available for Android, Linux and Windows computers, using a modified Source Engine by nillerusr.",
+		"if": "Illustrative Fortress",
+		"if_desc": "Illustrative Fortress is a TF2 Source Mod that aims to emulate the beta version of the game during late 2006 to early 2007, heavily inspired by the Early Illustrative Rendering phase of TF2 beta."
+	},
+	
+	"team_desc": "The Aridity Team is a group of people (specifically from South-East Asia) that likes to develop software just for fun. We support free and open-source software!",
+	"team_seeprojects": "See our projects here in our ",
+	"team_seenetwork": "We also handle a few affiliates and subsidiaries. See "
+}

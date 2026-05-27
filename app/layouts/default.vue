@@ -5,8 +5,8 @@
 
 <script setup lang="ts">
 const links = [
-	{ name: "Home", path: "/" },
-	{ name: "Network", path: "/network" },
+	{ name: $t('home'), path: "/" },
+	{ name: $t('network'), path: "/network" },
 ];
 
 const brandingImages = computed(() => {
